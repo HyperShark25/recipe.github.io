@@ -1,0 +1,99 @@
+body {
+    justify-items: center;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+    width: 40vw;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 0 2vw;
+    margin-top: 8vh;
+    border-radius: 10px;
+}
+
+img {
+    width: 40vw;
+    margin-top: 2vh;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: left;
+    font-family: serif;
+}
+
+.description {
+    font-size: 16px;
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    padding-left: 1.5vw;
+}
+
+li {
+    margin-bottom: 2vh;
+    padding-left: 1vw;
+}
+
+h2, .ingredients {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredient {
+    color: black;
+}
+
+ol {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions {
+    color: hsl(24, 5%, 18%);
+}
+
+hr {
+    color: hsl(30, 18%, 87%);
+    width: 38vw;
+}
+
+table {
+    width: 38vw;
+    margin-bottom: 2vh;
+    border-collapse: collapse;
+}
+
+.values {
+    border-bottom: 1px solid black;
+    padding-left: 4vw;
+}
+
+.unit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+.values, .last-value {
+    font-size: 16px;
+    padding-left: 2vw;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
